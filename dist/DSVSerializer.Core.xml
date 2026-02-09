@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DSVSerializer.Core</name>
+    </assembly>
+    <members>
+        <member name="T:DSVSerializer.Core.DsvIgnoreAttribute">
+            <summary>
+            Атрибут для игнорирования свойства в сериализации
+            </summary>
+        </member>
+        <member name="P:DSVSerializer.Core.DsvIgnoreAttribute.Ignore">
+            <summary>
+            Свойство, указывающее, нужно ли игнорировать свойство.
+            Установить в false через конструктор, если свойство нужно сериализовать.
+            </summary>
+        </member>
+        <member name="M:DSVSerializer.Core.DsvIgnoreAttribute.#ctor(System.Boolean)">
+            <summary>
+            Конструктор атрибута игнорирования свойства в сериализации.
+            По умолчанию игнорируется. Но можно указать, что свойство не нужно игнорировать.
+            </summary>
+            <param name="ignore">Значение, указывающее, нужно ли игнорировать свойство.</param>
+        </member>
+        <member name="T:DSVSerializer.Core.DsvSerializer">
+            <summary>
+            Класс для сериализации объектов в DSV формат
+            </summary>
+        </member>
+        <member name="M:DSVSerializer.Core.DsvSerializer.Serialize``1(``0,System.String)">
+            <summary>
+            Сериализует объект в DSV формат.
+            Первая строка - имена полей, вторая - значения полей.
+            Сериализует только свойства класса
+            </summary>
+            <param name="obj">Объект для сериализации</param>
+            <param name="delimiter">Разделитель между значениями, по умолчанию "|"</param>
+            <typeparam name="T">Тип объекта для сериализации</typeparam>
+            <returns>Сериализованный объект в виде строки</returns>
+        </member>
+    </members>
+</doc>
