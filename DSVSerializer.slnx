@@ -1,3 +1,15 @@
 <Solution>
+  <Folder Name="/DocFX/">
+    <File Path="docfx.json" />
+    <File Path="docs/getting-started.md" />
+    <File Path="docs/introduction.md" />
+    <File Path="docs/toc.yml" />
+    <File Path="index.md" />
+    <File Path="toc.yml" />
+  </Folder>
+  <Folder Name="/git/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="DSVSerializer.Core/DSVSerializer.Core.csproj" />
 </Solution>
