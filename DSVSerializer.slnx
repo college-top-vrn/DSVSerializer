@@ -11,5 +11,8 @@
     <File Path=".gitattributes" />
     <File Path=".gitignore" />
   </Folder>
+  <Folder Name="/github_actions/">
+    <File Path=".github/workflows/docfx.yml" />
+  </Folder>
   <Project Path="DSVSerializer.Core/DSVSerializer.Core.csproj" />
 </Solution>
