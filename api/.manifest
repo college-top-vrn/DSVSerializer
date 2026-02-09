@@ -1,0 +1,8 @@
+{
+  "DSVSerializer.Core": "DSVSerializer.Core.yml",
+  "DSVSerializer.Core.DsvIgnoreAttribute": "DSVSerializer.Core.DsvIgnoreAttribute.yml",
+  "DSVSerializer.Core.DsvIgnoreAttribute.#ctor(System.Boolean)": "DSVSerializer.Core.DsvIgnoreAttribute.yml",
+  "DSVSerializer.Core.DsvIgnoreAttribute.Ignore": "DSVSerializer.Core.DsvIgnoreAttribute.yml",
+  "DSVSerializer.Core.DsvSerializer": "DSVSerializer.Core.DsvSerializer.yml",
+  "DSVSerializer.Core.DsvSerializer.Serialize``1(``0,System.String)": "DSVSerializer.Core.DsvSerializer.yml"
+}

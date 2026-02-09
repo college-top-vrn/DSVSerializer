@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: DSVSerializer.Core
+  commentId: N:DSVSerializer.Core
+  id: DSVSerializer.Core
+  children:
+  - DSVSerializer.Core.DsvIgnoreAttribute
+  - DSVSerializer.Core.DsvSerializer
+  langs:
+  - csharp
+  - vb
+  name: DSVSerializer.Core
+  nameWithType: DSVSerializer.Core
+  fullName: DSVSerializer.Core
+  type: Namespace
+  assemblies:
+  - DSVSerializer.Core
+references:
+- uid: DSVSerializer.Core.DsvIgnoreAttribute
+  commentId: T:DSVSerializer.Core.DsvIgnoreAttribute
+  href: DSVSerializer.Core.DsvIgnoreAttribute.html
+  name: DsvIgnoreAttribute
+  nameWithType: DsvIgnoreAttribute
+  fullName: DSVSerializer.Core.DsvIgnoreAttribute
+- uid: DSVSerializer.Core.DsvSerializer
+  commentId: T:DSVSerializer.Core.DsvSerializer
+  href: DSVSerializer.Core.DsvSerializer.html
+  name: DsvSerializer
+  nameWithType: DsvSerializer
+  fullName: DSVSerializer.Core.DsvSerializer

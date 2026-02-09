@@ -1,0 +1,13 @@
+### YamlMime:TableOfContent
+items:
+- uid: DSVSerializer.Core
+  name: DSVSerializer.Core
+  type: Namespace
+  items:
+  - uid: DSVSerializer.Core.DsvIgnoreAttribute
+    name: DsvIgnoreAttribute
+    type: Class
+  - uid: DSVSerializer.Core.DsvSerializer
+    name: DsvSerializer
+    type: Class
+memberLayout: SamePage

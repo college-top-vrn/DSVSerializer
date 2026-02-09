@@ -485,5 +485,4 @@ $RECYCLE.BIN/
 dist/
 
 #DocFX
-api/
 _site/

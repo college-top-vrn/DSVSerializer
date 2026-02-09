@@ -1,5 +1,10 @@
 <Solution>
   <Folder Name="/DocFX/">
+    <File Path="api/.manifest" />
+    <File Path="api/DSVSerializer.Core.DsvIgnoreAttribute.yml" />
+    <File Path="api/DSVSerializer.Core.DsvSerializer.yml" />
+    <File Path="api/DSVSerializer.Core.yml" />
+    <File Path="api/toc.yml" />
     <File Path="docfx.json" />
     <File Path="docs/getting-started.md" />
     <File Path="docs/introduction.md" />
